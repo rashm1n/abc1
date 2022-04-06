@@ -1,9 +1,0 @@
-[build-options]
-  observabilityIncluded = true
-
-[package]
-  distribution = "2201.0.1"
-  export = ["march10_2"]
-  name = "march10_2"
-  org = "isurupiyarathnarucji"
-
