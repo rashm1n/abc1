@@ -5,7 +5,7 @@ import ballerina/io;
 # bound to port `9090`.
 configurable string cfg = ?;
 configurable string[] strAr = ?;
-configurable int[] intAr = ?;
+configurable int[] intAr = [];
 configurable string greeting = ?;
 
 
