@@ -4,9 +4,11 @@ import ballerina/io;
 # A service representing a network-accessible API
 # bound to port `9090`.
 configurable string cfg = ?;
-configurable string[] strAr = ?;
-configurable int[] intAr = [];
-configurable string greeting = ?;
+configurable int[] intAr = ?;
+configurable int[] intAr2 = [];
+configurable int[3] intAr3 = [];
+configurable int[3] intAr4 = ?;
+configurable string greeting = "heelo";
 
 
 service / on new http:Listener(9090) {
@@ -15,7 +17,6 @@ service / on new http:Listener(9090) {
     # + name - the input string name
     # + return - string name with hello message or error
     resource function get greeting(string name) returns string|error {
-        io:println(strAr);
         io:println(intAr);
         // Send a response back to the caller.
         if name is "" {
