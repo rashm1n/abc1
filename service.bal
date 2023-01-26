@@ -6,8 +6,9 @@ import ballerina/io;
 configurable string cfg = ?;
 configurable int[] intAr = ?;
 configurable int[] intAr2 = [];
-configurable int[3] intAr3 = [];
+configurable int[3] intAr3 = [1,2,3];
 configurable int[3] intAr4 = ?;
+configurable int[3] intAr5 = [];
 configurable string greeting = "heelo";
 
 
