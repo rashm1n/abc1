@@ -9,6 +9,7 @@ configurable int[] intAr2 = [];
 configurable int[3] intAr3 = [1,2,3];
 configurable int[3] intAr4 = ?;
 configurable int[3] intAr5 = [];
+configurable int[*] intAr6 = [1,2];
 configurable string greeting = "heelo";
 
 
